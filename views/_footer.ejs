@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="/css/footer.css">
+<footer>
+    <div>
+      <p>&copy; <%= new Date().getFullYear() %> Issue Tracker . All rights reserved-</p>
+      <p id="current-time">Current Time: <span id="time"></span></p>
+      <p id="current-date">Current Date: <span id="date"></span></p>
+    
+      </form>
+    </div>
+  </footer>
+  
+  <script>
+    // Function to update the current time and date
+    function updateDateTime() {
+      const now = new Date();
+      const hours = now.getHours().toString().padStart(2, '0');
+      const minutes = now.getMinutes().toString().padStart(2, '0');
+      const seconds = now.getSeconds().toString().padStart(2, '0');
+      const currentTimeString = `${hours}:${minutes}:${seconds}`;
+      document.getElementById('time').textContent = currentTimeString;
+
+      const year = now.getFullYear();
+      const month = (now.getMonth() + 1).toString().padStart(2, '0');
+      const day = now.getDate().toString().padStart(2, '0');
+      const currentDate = `${year}-${month}-${day}`;
+      document.getElementById('date').textContent = currentDate;
+    }
+
+    // Update the current time and date every second
+    setInterval(updateDateTime, 1000);
+
+    // Function to handle form submission (replace this with your own server-side logic)
+    document.getElementById('contact-form').addEventListener('submit', function (event) {
+      event.preventDefault();
+      const formData = new FormData(this);
+      const data = {};
+      formData.forEach((value, key) => {
+        data[key] = value;
+      });
+      console.log(data); // Replace this with your own logic to handle the form data
+    });
+  </script>

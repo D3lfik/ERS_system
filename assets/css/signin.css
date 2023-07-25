@@ -1,0 +1,75 @@
+/* CSS code for sign.css */
+
+/* Overall container styles */
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Styles for the company logo */
+  .companyLogo img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the form input container */
+  .formInput {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+  }
+  
+  /* Styles for the heading */
+  .formInput h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  /* Styles for the input fields */
+  .formInput input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Styles for the forget password link */
+  .forgetPassword a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Styles for the submit button */
+  .submitButtons button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the extra information */
+  .extraStuff {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  /* Styles for the register link */
+  .extraStuff a {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  

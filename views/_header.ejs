@@ -6,18 +6,18 @@
         <% if (locals.user){ %>
             <%if(locals.user.isAdmin){%>
                 <div class="logOut">
-                    
-                    <a href="/admin/assignWork"> <small>Assign Work</small> </a>
-                    <a href="/admin/view-employee"> <small>Employees</small> </a>
-                    <a href="/admin/add-employee"> <small> Add Employee </small> </a>
-                    <a href="/users/sign-out" > <small>LogOut </a> </small>
-                    <span class="nameOfUser"><img src="../images/profile.jpg"><%= locals.user.name%>  </span> 
-                </div>
+                    <a href="/admin/assignWork"><button class="btn">Assign Work</button></a>
+                    <a href="/admin/view-employee"><button class="btn">Employees</button></a>
+                    <a href="/admin/add-employee"><button class="btn">Add Employee</button></a>
+                    <a href="/users/sign-out"><button class="btn">Log Out</button></a>
+                    <span class="nameOfUser"> <i class="fas fa-user"></i><%= locals.user.name%> </span>
+                  </div>
+                  
             <%}else{%>    
                 
                 <div class="logOut"> 
                 <a href="/users/sign-out" > <small>LogOut</small> </a> 
-                <span class="nameOfUser"><img src="../images/profile.jpg"><%= locals.user.name%>  </span>
+                <span class="nameOfUser"> <i class="fas fa-user"></i><%= locals.user.name%>  </span>
             </div>
             <%}%>
             

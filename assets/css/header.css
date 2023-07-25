@@ -1,0 +1,95 @@
+/* CSS code for header.css */
+
+/* Overall header styles */
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .nameOfApp {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nameOfApp img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  .logOut a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 5px;
+  }
+  
+  .logOut a:hover {
+    text-decoration: underline;
+  }
+  
+  .logOut .nameOfUser {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logOut .nameOfUser img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .noUser ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .noUser li {
+    margin: 0 10px;
+  }
+  
+  .noUser a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .noUser a:hover {
+    text-decoration: underline;
+  }
+/* CSS for buttons */
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+
+/* Additional styles for the nameOfUser section (profile image and user name) */
+.nameOfUser {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.nameOfUser img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+}

@@ -1,0 +1,73 @@
+/* Overall styles for the main container */
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Styles for the company logo */
+  .companyLogo {
+    margin-bottom: 30px;
+  }
+  
+  .companyLogo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* Styles for the form input */
+  .formInput {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .formInput h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .formInput input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Styles for the buttons */
+  .submitButtons {
+    text-align: center;
+  }
+  
+  .submitButtons button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButtons button:hover {
+    background-color: #555;
+  }
+  
+  /* Styles for the forget password link */
+  .forgetPassword a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .forgetPassword a:hover {
+    text-decoration: underline;
+  }
+  

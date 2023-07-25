@@ -1,0 +1,57 @@
+/* Styles for the table container */
+.table-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/* Styles for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* Styles for table header */
+thead tr {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Styles for table rows */
+tbody tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+/* Styles for table cells */
+td, th {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Styles for delete button */
+.btn-delete {
+  background-color: #f44336;
+  color: #fff;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-delete:hover {
+  background-color: #d32f2f;
+}
+
+/* Additional styles for the heading */
+.text-center {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  margin-top: 30px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+}

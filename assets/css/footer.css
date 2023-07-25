@@ -1,0 +1,51 @@
+/* CSS code for footer.css */
+
+/* Overall footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+/* Additional styles for the container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Styles for the copyright text */
+footer p:first-child {
+  font-size: 14px;
+}
+
+/* Styles for the author name */
+footer p:first-child::after {
+  content: " - Apurv Nandgaonkar";
+}
+
+/* Styles for the current time and date sections */
+#current-time,
+#current-date {
+  font-size: 12px;
+}
+
+/* Styles for the time and date values */
+#time,
+#date {
+  font-weight: bold;
+}
+
+/* Set the main content area to have a minimum height to push the footer to the bottom */
+main {
+  min-height: calc(100vh - 80px); /* Adjust 80px to match the height of your footer */
+  display: flex;
+  flex-direction: column;
+}

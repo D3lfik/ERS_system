@@ -1,0 +1,107 @@
+/* CSS code for home.css */
+.review12 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .review12 img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .outerDiv {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styles for the admin password section */
+  .adminPass {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .adminPass input {
+    padding: 10px;
+  }
+  
+  .submitHomeButton {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Styles for the main content sections */
+  .home-box {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .home-box img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  .employeereview, .myreview {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .reviewBox {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .outerBox {
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .innerBox {
+    margin-top: 10px;
+  }
+  
+  .formClass {
+    width: 90%;
+    resize: vertical;
+    padding: 10px;
+  }
+  
+  /* Styles for the reviews */
+  .card-out {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .in-card {
+    width: 48%;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .cls-txt {
+    margin: 5px 0;
+  }
+  
+  /* Add more CSS styles as needed for your specific design */
+  
