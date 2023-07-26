@@ -1,5 +1,6 @@
+require('dotenv').config();
 const express = require('express'); 
-const port =4000  || process.env.PORT;
+const port = 4000  || process.env.PORT;
 const app = express(); 
 const expressLayout = require('express-ejs-layouts');
 const db = require('./config/mongoose');
@@ -29,7 +30,7 @@ app.use(session({
         maxAge: (1000 * 60 * 100)
     },
     store: MongoStore.create({
-        mongoUrl: 'mongodb+srv://bitz:JLP840wGgnVPpbEV@cluster101.zsgcwml.mongodb.net/?retryWrites=true&w=majority ',
+        mongoUrl:process.env.MONGODB,
         autoRemove: 'disabled'
     },
         (err) => {

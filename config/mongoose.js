@@ -1,5 +1,6 @@
+require('dotenv').config();
 const mongoose = require('mongoose');
-const DB = 'mongodb+srv://bitz:JLP840wGgnVPpbEV@cluster101.zsgcwml.mongodb.net/?retryWrites=true&w=majority'
+const DB = process.env.MONGODB;
 
 mongoose.connect(DB).then(()=>{
     console.log('connected Successfull');
