@@ -5,7 +5,7 @@ This is a full-stack web application called Employee Review System (ERS) built u
 ## Developer
 - **Developer Name:** Apurv Nandgaonkar
 
-# Hoisted Link -> https://git-bitz-ers.onrender.com
+# Hosted Link -> https://git-bitz-ers.onrender.com
 
 ## File Structure
 ```
